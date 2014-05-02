@@ -7,8 +7,8 @@ module.exports = {
     site: {
       title: "blog.linx.dj",
       description: "a blog for linx.dj",
-      styles: ["/styles/index.css"],
-      scripts: ["/scripts/bundle.js"],
+      styles: ["styles/index.css"],
+      scripts: ["scripts/bundle.js"],
     },
   },
   detectEncoding: true,
