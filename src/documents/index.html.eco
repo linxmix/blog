@@ -1,0 +1,78 @@
+---
+layout: "default"
+isPaged: true
+pagedCollection: 'posts'
+pageSize: 3
+---
+<main class="ui one column page grid">
+
+  <!-- Page Content -->
+  <div class="posts column">
+    <% for document in @getPageCollection('posts').toJSON(): %>
+    <article class="post">
+      <h1>
+        <a href='<%= document.url %>'>
+          <%= document.title %>
+        </a>
+      </h1>
+      by
+      <h2>
+        <%= document.author %>
+      </h2>
+      <div class="date">
+        <%= document.date.toLocaleDateString() %>
+      </div>
+      <div class="content">
+        <%- document.contentRenderedWithoutLayouts %>
+      </div>
+    </article>
+    <% end %>
+  </div>
+
+  <!-- Page Listing -->
+  <div class="ui pagination menu">
+    <ul>
+      <!-- Previous Page Button -->
+      <% unless @hasPrevPage(): %>
+      <li class="ui disabled icon item">
+        <i class="left icon"></i>
+      </li>
+      <% else: %>
+      <li class="ui icon item">
+        <a href="<%= @getPrevPage() %>">
+          <i class="left icon"></i>
+        </a>
+      </li>
+      <% end %>
+
+      <!-- Page Number Buttons -->
+      <% for pageNumber in [0..@document.page.count-1]: %>
+      <% if @document.page.number is pageNumber: %>
+      <li class="active item">
+        <%= pageNumber + 1 %>
+      </li>
+      <% else: %>
+      <li class="item">
+        <a href="<%= @getPageUrl(pageNumber) %>">
+          <%= pageNumber + 1 %>
+        </a>
+      </li>
+      <% end %>
+      <% end %>
+
+      <!-- Next Page Button -->
+      <% unless @hasNextPage(): %>
+      <li class="ui disabled icon item">
+      <i class="right icon"></i>
+      </li>
+      <% else: %>
+      <li class="ui icon item">
+      <a href="<%= @getNextPage() %>">
+        <i class="right icon"></i>
+      </a>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+
+</main>
