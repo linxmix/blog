@@ -1,0 +1,5 @@
+<div class="nocomments">
+  <a href="<%= @document.url + "#disqus_thread" %>">
+    comment on this post
+  </a>
+</div>

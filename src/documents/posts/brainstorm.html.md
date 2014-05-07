@@ -1,6 +1,7 @@
 ---
+uuid: 0bfc441b-4810-4e86-adc7-130c4448f720
 title: "5/1/2014 Linx Brainstorming Meetup"
-author: "me"
+author: "Daniel"
 ---
 
 Today's meeting was an inspirational gathering of thoughts and ideas for the future of Linx. Much was discussed - the meeting was recorded and the audio + notes + boardwork are included.

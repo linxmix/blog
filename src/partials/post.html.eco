@@ -1,16 +1,5 @@
 <article class="post">
-  <h1 class="title">
-    <a href='<%= @document.url %>'>
-      <%= @document.title %>
-    </a>
-  </h1>
-  by
-  <h2 class="author">
-    <%= @document.author %>
-  </h2>
-  <h3 class="date">
-    <%= @document.date.toLocaleDateString() %>
-  </h3>
+  <%- @partial("postHeader.html.eco") %>
   <div class="content">
     <%- @document.contentRenderedWithoutLayouts %>
   </div>

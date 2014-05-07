@@ -9,6 +9,7 @@ module.exports = {
       description: "a blog for linx.dj",
       styles: ["styles/index.css"],
       scripts: ["scripts/bundle.js"],
+      url: "linx.dj",
     },
   },
   detectEncoding: true,
@@ -47,6 +48,8 @@ module.exports = {
       return this.getCollection('html').findAllLive({
         relativeOutDirPath: 'posts',
         isPagedAuto: { $ne: true },
+      }).on("add", function (model) {
+        model.setMetaDefaults({ layout: "postLayout" });
       });
     }
   },

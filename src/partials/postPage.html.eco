@@ -1,0 +1,8 @@
+<main class="ui one column page grid">
+  <div class="column">
+    <%- @partial("post.html.eco") %>
+  </div>
+  <div class="column">
+    <%- @partial("comments.html.eco") %>
+  </div>
+</main>

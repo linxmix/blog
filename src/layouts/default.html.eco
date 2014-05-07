@@ -11,7 +11,7 @@
     <%- @getBlock("styles").add(@site.styles or []).add(@document.styles or []).toHTML() %>
   </head>
   <body>
-    <%- @partial("fork.html") %>
+    <%- @partial("fork.html.eco") %>
     <%- @partial("header.html.eco") %>
     <%- @content %>
     <%- @getBlock("scripts").add(@site.scripts or []).add(@document.scripts or []).toHTML() %>
