@@ -9,23 +9,7 @@ pageSize: 3
   <!-- Page Content -->
   <div class="posts column">
     <% for document in @getPageCollection('posts').toJSON(): %>
-    <article class="post">
-      <h1>
-        <a href='<%= document.url %>'>
-          <%= document.title %>
-        </a>
-      </h1>
-      by
-      <h2>
-        <%= document.author %>
-      </h2>
-      <div class="date">
-        <%= document.date.toLocaleDateString() %>
-      </div>
-      <div class="content">
-        <%- document.contentRenderedWithoutLayouts %>
-      </div>
-    </article>
+    <%- @partial("post.html.eco", false, { document: document }) %>
     <% end %>
   </div>
 
