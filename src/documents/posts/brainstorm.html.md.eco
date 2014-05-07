@@ -104,9 +104,7 @@ Today's meeting was an inspirational gathering of thoughts and ideas for the fut
 # Resources
 
 ## Pictures/Drawings
- <a href="http://imgur.com/YqQMaNg" title="5/6/14 Linx Meetup"><img src="http://i.imgur.com/YqQMaNg.jpg?1" title="Hosted by imgur.com" height=600 alt="5/6/14 Linx Meetup"/></a>
- <a href="http://imgur.com/Vs3LsVm" title="5/6/14 Linx Meetup"><img src="http://i.imgur.com/Vs3LsVm.jpg?1" title="Hosted by imgur.com" height=600 alt="5/6/14 Linx Meetup"/></a>
+<%- @partial("image.html.eco", { fileid: "0B_V6LSmyIHABc1lSeE90S2pDTm8", title: "Main Boardwork", height: '600' }) %>
  
 ## Notes/Text
- - chii: https://gist.github.com/wolfbiter/6dc91eef40134f437abe
-
+ - [Chii Notes](https://docs.google.com/document/d/1SuR8hLS-VA9p31vMsUgwxM7-3nonRHRib7hq6987kF8/)

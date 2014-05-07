@@ -82,6 +82,5 @@ Imagine you are a user cruising mixes for listen to, and you find a mix with a d
 # Resources
 
 ## Pictures/Drawings
-<a href="http://imgur.com/BQBQcKf" title="Linx Meetup 5/1/14"><img src="http://i.imgur.com/BQBQcKf.jpg" alt="Linx Meetup 5/1/14" height="600" title="Hosted by imgur.com" /></a>
-
-
+<%- @partial("image.html.eco", { fileid: "0B_V6LSmyIHABOHpJVy0xdU5nRkU", title: "graph views for selected track: transition, last song, edit song", height: '600' }) %>
+<%- @partial("image.html.eco", { fileid: "0B_V6LSmyIHABNHNYcUVKdUF6SWM", title: "graph song edit view. also shows queued songs in ovals", height: '600' }) %>

@@ -1,0 +1,23 @@
+---
+uuid: bd92cbf0-d632-11e3-9c1a-0800200c9a66
+title: "First Linx Meetup"
+date: "10/17/13"
+author: "Daniel"
+---
+
+Retrospective post about the impromptu first Linx meetup, where the idea of the upNext view was born. The ideas have since evolved, but their roots lie in the attached resources...
+
+#### Attendees:
+- Daniel Leja
+- Chii Maene
+- Isabella Granados
+- Chris Goodman
+- Ernest Templin
+
+# Resources
+
+## Pictures/Drawings
+<%- @partial("image.html.eco", { fileid: "0B_V6LSmyIHABMWZIMlJIZFE2V3c", title: "upNext view", height: '600' }) %>
+<%- @partial("image.html.eco", { fileid: "0B_V6LSmyIHABWE5mMFZobllZTFE", title: "linx map view", height: '600' }) %>
+<%- @partial("image.html.eco", { fileid: "0B_V6LSmyIHABU3FKYjdiS0xXRG8", title: "10/17/13 Linx Meetup - 3", height: '600' }) %>
+<%- @partial("image.html.eco", { fileid: "0B_V6LSmyIHABd3VySzhNTmtKS3c", title: "menu bar with labeled tabs", height: '600' }) %>

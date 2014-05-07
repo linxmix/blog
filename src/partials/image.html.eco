@@ -1,0 +1,3 @@
+<a href="https://drive.google.com/file/d/<%= @fileid %>" title="<%= @title %>">
+  <img src="https://drive.google.com/uc?export=view&id=<%= @fileid %>" alt="<%= @title %>" <% if @height: %>height="<%= @height %>" <% end %> title="<%= @title %>" />
+</a>
