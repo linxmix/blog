@@ -5,6 +5,17 @@ author: "me"
 
 Today's meeting was an inspirational gathering of thoughts and ideas for the future of Linx. Much was discussed - the meeting was recorded and the audio + notes + boardwork are included.
 
+#### Attendees:
+- Daniel Leja
+- Michael Williams
+- Chii Maene
+- Isabella Granados
+- Ginny McGinnis
+- Ernest Templin
+- Dana Maier-Zucchino
+- Marcell Zimanyi
+- Chris Goodman
+
 # Major Topics:
 
 ## 1. Linx's 'niche'
