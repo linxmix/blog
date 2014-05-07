@@ -22,7 +22,7 @@ In the wake of the previous brainstorm's success, a subset of us reconvened to d
   + `flower`: active when the last song of the mix is selected, this is the classic Linx view
   + `song edit`: active when selecting a song in the mix which is not the last song. prev song goes to top, next song goes to bottom, possible options to replace selected song are lined up in the center and connected to prev and next songs by lines indicating transitions (see included picture for reference).
   + `transition`: start and end song on top and bottom, all transition choices between them
-   * NOTE: this has low priority since it won't be useful until we have lots transitions to choose from!
+  + NOTE: `transition` has low priority since it won't be useful until we have transitions to choose from!
 
 ### Future:
  - how to preview upNext [songs/transitons] in the mixbuilder
