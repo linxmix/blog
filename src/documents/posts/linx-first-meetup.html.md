@@ -1,6 +1,8 @@
 ---
-title: "10/17/13 First Linx Meetup"
-author: "me"
+uuid: bd92cbf0-d632-11e3-9c1a-0800200c9a66
+title: "First Linx Meetup"
+date: "10/17/13"
+author: "Daniel"
 ---
 
 Retrospective post about the impromptu first Linx meetup, where the idea of the upNext view was born. The ideas have since evolved, but their roots lie in the attached resources...

@@ -48,7 +48,7 @@ module.exports = {
       return this.getCollection('html').findAllLive({
         relativeOutDirPath: 'posts',
         isPagedAuto: { $ne: true },
-      }).on("add", function (model) {
+      }, { "date": -1 }).on("add", function (model) {
         model.setMetaDefaults({ layout: "postLayout" });
       });
     }

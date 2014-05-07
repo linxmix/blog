@@ -1,6 +1,7 @@
 ---
 uuid: 0bfc441b-4810-4e86-adc7-130c4448f720
-title: "5/1/2014 Linx Brainstorming Meetup"
+title: "Linx Brainstorming Meetup"
+date: "5/1/2014"
 author: "Daniel"
 ---
 

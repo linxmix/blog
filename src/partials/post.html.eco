@@ -1,5 +1,5 @@
 <article class="post">
-  <%- @partial("postHeader.html.eco") %>
+  <%- @partial("postHeader.html.eco", false, { document: @document }) %>
   <div class="content">
     <%- @document.contentRenderedWithoutLayouts %>
   </div>
