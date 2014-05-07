@@ -79,7 +79,20 @@ Today's meeting was an inspirational gathering of thoughts and ideas for the fut
     + 'song edit' view, song in center with next songs spiraling around it
     + 'transition edit' view, start song at top and end song at bottom with lines of all possible transitions splayed out between them
 
-
+## 6. Transition Requests
+ - can be private (eg to specific dj) or public
+ - users posting requests helps connect DJ's to listeners and other DJ's
+  + also helps fill out the most-desired transitions in global 'linx map'
+ - fulfilling requests is a great way for DJ's to 'get out there'
+  + users are notified when DJs submit response (should this auto close the request?)
+ - DJ's as service providers?
+  + DJ's have 'rates' for private requests
+  + DJ's get 'reviews' like TaskRabbit/Ebay/Amazon/etc
+ - stackable/crowdsourced bounties on requests?
+  + a theoretical monetary incentive for DJ's
+  + don't want bounties to trivially/insultingly small
+  + DJ's can search requests by total bounty and by total # requests
+  + need a system to make it fair between requester and requestee 
 
 
 

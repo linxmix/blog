@@ -24,6 +24,9 @@ In the wake of the previous brainstorm's success, a subset of us reconvened to d
   + `transition`: start and end song on top and bottom, all transition choices between them
    * NOTE: this has low priority since it won't be useful until we have lots transitions to choose from!
 
+### Future:
+ - how to preview upNext [songs/transitons] in the mixbuilder
+
 ## 2. MixBuilder `timeline` view
  - similar to SoundBar's `wave` view
  - can be zoomed in/out
@@ -32,12 +35,41 @@ In the wake of the previous brainstorm's success, a subset of us reconvened to d
  - possibly offer editing capabilities, ie crossfader automation / wave positioning
  - waveforms will each have their own colors to distinguish breakpoints between songs/transitions
 
-## 3. To Be Continued...
- - how to preview upNext [songs/transitons] in the mixbuilder
+### Future:
  - details of `timeline` view
   + how does it look
   + what functionality does it have
   + how does this play into the idea of a simple daw
+
+## 3. Let's Get Real: We Have No Transitions
+ - spectrum bounded by 'all mixes have no transitions' and 'all mixes have all transitions'
+  + 'build a mix tape' => 'build a mix'
+ - we start at the 0 end, but Linx should still be useful as a MixBuilder in the respective ways of listener and DJ users.
+  + aka MVP
+  + DJ's can upload their own transitions to build mixes
+  + Listeners can build/share/export 'mix tapes'
+ - it will take a TON of transitions by a TON of DJ's to get to a reasonable number on the scale
+
+### Future:
+ - need to start thinking about how to appeal to / advertise to DJ's
+  + transition requests?
+  + start locally in the bay area with friend DJ's and friends of friends?
+
+## 4. New Paradigms: Music players as 'mix builders' and 'DJing as a service'
+ - 'user-generated' mixes are to music listeners what content-generators (a la Drupal, Wordpress) are to web bloggers
+  + content generators bring benefit of a website to bloggers without need for programming skill, while bloggers who are also programmers can still roll their own websites
+  + 'user-generated' mixes bring the benefits of seamless mixes to listeners without need for DJing skill, while listeners who are also DJ's can still make their own mixes
+   * => users without technical skill can now build mixes
+  + parallel triangles: [music listeners] - [DJs]
+ - Licensing and public disclosure of code and design ideas
+  + don't want to hand competition the tools to drown us
+  + but also want to be open source
+  + Linx lives and dies on its unique appeal to users. big names can crush linx if they move towards 'mix building' style of linx 
+
+### Pitch:
+Imagine you are a user cruising mixes for listen to, and you find a mix with a description to the effect of 'This mix was built by [username] at linx.dj. Build yours now!'. The first thing I would think is 'oh ****, i HAVE to try that out'. It's basically putting ads exactly where interested users are looking: people who are interested in mixes will find mixes that are built by linx... match made in heaven.
+
+## 5. To Be Continued...
  - 'list' view for mix
   + is this a subset of other views? ie timeline has a list below it, sort of like a track list?
   + is this necessary? it's easy to add in the code since playlists already exist
@@ -45,6 +77,5 @@ In the wake of the previous brainstorm's success, a subset of us reconvened to d
   + for playlists (and mixes?)
   + good for at-a-glance previewing
   + also good for playback previewing
-
 
 
