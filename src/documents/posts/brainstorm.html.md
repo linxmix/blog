@@ -4,7 +4,7 @@ title: "5/1/2014 Linx Brainstorming Meetup"
 author: "Daniel"
 ---
 
-Today's meeting was an inspirational gathering of thoughts and ideas for the future of Linx. Much was discussed - the meeting was recorded and the audio + notes + boardwork are included.
+Today's meeting was an inspirational gathering of thoughts and ideas for the future of Linx. Much was discussed - from Linx's niche to the semantics of a mix.
 
 #### Attendees:
 - Daniel Leja
@@ -80,7 +80,12 @@ Today's meeting was an inspirational gathering of thoughts and ideas for the fut
     + 'song edit' view, song in center with next songs spiraling around it
     + 'transition edit' view, start song at top and end song at bottom with lines of all possible transitions splayed out between them
 
-## 6. Transition Requests
+## 6. Possible Theme: "The New Mix Tape"
+ - logo is a cassette with turntables
+ - change coloring / styling to retro theme
+  + use color scheme on cassette back of marcell's phone
+
+## 7. Transition Requests
  - can be private (eg to specific dj) or public
  - users posting requests helps connect DJ's to listeners and other DJ's
   + also helps fill out the most-desired transitions in global 'linx map'
@@ -95,6 +100,12 @@ Today's meeting was an inspirational gathering of thoughts and ideas for the fut
   + DJ's can search requests by total bounty and by total # requests
   + need a system to make it fair between requester and requestee 
 
+# Resources
 
-
+## Pictures/Drawings
+ <a href="http://imgur.com/YqQMaNg" title="5/6/14 Linx Meetup"><img src="http://i.imgur.com/YqQMaNg.jpg?1" title="Hosted by imgur.com" height=600 alt="5/6/14 Linx Meetup"/></a>
+ <a href="http://imgur.com/Vs3LsVm" title="5/6/14 Linx Meetup"><img src="http://i.imgur.com/Vs3LsVm.jpg?1" title="Hosted by imgur.com" height=600 alt="5/6/14 Linx Meetup"/></a>
+ 
+## Notes/Text
+ - chii: https://gist.github.com/wolfbiter/6dc91eef40134f437abe
 

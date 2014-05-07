@@ -1,6 +1,6 @@
 ---
 uuid: ff0708d4-d748-43de-bd38-aa33f649b598
-title: "5/7/2014 Linx MixBuilder Meetup"
+title: "5/6/2014 Linx MixBuilder Meetup"
 author: "me"
 ---
 
@@ -57,11 +57,10 @@ In the wake of the previous brainstorm's success, a subset of us reconvened to d
   + start locally in the bay area with friend DJ's and friends of friends?
 
 ## 4. New Paradigms: Music players as 'mix builders' and 'DJing as a service'
- - 'user-generated' mixes are to music listeners what content-generators (a la Drupal, Wordpress) are to web bloggers
-  + content generators bring benefit of a website to bloggers without need for programming skill, while bloggers who are also programmers can still roll their own websites
-  + 'user-generated' mixes bring the benefits of seamless mixes to listeners without need for DJing skill, while listeners who are also DJ's can still make their own mixes
-   * => users without technical skill can now build mixes
-  + parallel triangles: [music listeners] - [DJs]
+ - users without technical skill can now build mixes
+ - 'user-generated' mixes (Linx) are to music listeners what content-generators (Drupal, Wordpress) are to web bloggers
+  + content generators bring benefit of a website to bloggers without need for programming skill, while bloggers who are also programmers can still roll their own websites for more control
+  + 'user-generated' mixes bring the benefits of seamless mixes to listeners without need for DJing skill, while listeners who are also DJ's can still make their own mixes for more control
  - Licensing and public disclosure of code and design ideas
   + don't want to hand competition the tools to drown us
   + but also want to be open source
@@ -78,5 +77,10 @@ Imagine you are a user cruising mixes for listen to, and you find a mix with a d
   + for playlists (and mixes?)
   + good for at-a-glance previewing
   + also good for playback previewing
+
+# Resources
+
+## Pictures/Drawings
+<a href="http://imgur.com/BQBQcKf" title="Linx Meetup 5/1/14"><img src="http://i.imgur.com/BQBQcKf.jpg" alt="Linx Meetup 5/1/14" height="600" title="Hosted by imgur.com" /></a>
 
 
