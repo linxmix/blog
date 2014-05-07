@@ -1,6 +1,6 @@
 <header>
   <h1 class="title">
-    <a href='<%= @document.url %>'>
+    <a href='<%= @site.url + @document.url %>'>
       <%= @document.title %>
     </a>
   </h1>

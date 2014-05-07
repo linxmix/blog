@@ -9,7 +9,8 @@ module.exports = {
       description: "a blog for linx.dj",
       styles: ["styles/index.css"],
       scripts: ["scripts/bundle.js"],
-      url: "linx.dj",
+      //url: "http://blog.linx.dj",
+      url: "http://linxmusic.github.io/blog",
     },
   },
   detectEncoding: true,
@@ -56,6 +57,11 @@ module.exports = {
   environments: {
     development: {
       port: 5000,
+      templateData: {
+        site: {
+          url: "http://localhost:5000",
+        }
+      }
     },
   },
 };

@@ -9,7 +9,7 @@ pageSize: 3
   <!-- Page Content -->
   <div class="posts column">
     <% for document in @getPageCollection('posts').toJSON(): %>
-    <%- @partial("post.html.eco", false, { document: document, partial: @partial }) %>
+    <%- @partial("post.html.eco", false, { document: document, partial: @partial, site: @site }) %>
     <%- @partial("nocomments.html.eco", false, { document: document }) %>
     <% end %>
   </div>
