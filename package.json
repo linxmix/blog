@@ -2,22 +2,22 @@
   "name": "blog",
   "private": true,
   "version": "0.1.0",
-  "description": "blog.linx.dj",
+  "description": "blog.linx.dj website",
   "repository": {
     "type": "git",
-    "url": "git://github.com/linxmix/blog.git"
+    "url": "git://github.com/linxmusic/blog.git"
   },
-  "author": "linxmix",
+  "author": "linxmusic",
   "license": "CC-BY-SA",
   "bugs": {
-    "url": "https://github.com/linxmix/blog/issues"
+    "url": "https://github.com/linxmusic/blog/issues"
   },
-  "homepage": "http://linxmix.github.io/blog",
+  "homepage": "http://linxmusic.github.io/blog",
   "main": "node_modules/.bin/docpad-server",
   "scripts": {
     "start": "node .",
     "develop": "docpad run",
-    "deploy": "git remote add origin git@github.com:linxmix/blog.git; docpad deploy-ghpages --env static"
+    "deploy": "docpad deploy-ghpages --env static"
   },
   "dependencies": {
     "semantic": "git+https://github.com/Semantic-Org/Semantic-UI#0.15.5",
