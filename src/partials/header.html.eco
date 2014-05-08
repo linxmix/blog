@@ -1,4 +1,13 @@
 <header>
-  <h1><%= @site.title %></h1>
-  <p><%= @site.description %></p>
+  <h1>
+    <a href="<%= @site.url %>">
+      blog.linx.dj
+    </a>
+  </h1>
+  <p>
+    open collaboration of
+    <a href="http://linx.dj">
+      linx.dj
+    </a>
+  </p>
 </header>

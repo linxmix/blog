@@ -6,7 +6,7 @@ module.exports = {
   templateData: {
     site: {
       title: "blog.linx.dj",
-      description: "a blog for linx.dj",
+      description: "open collaboration of linx.dj",
       styles: ["styles/index.css"],
       scripts: ["scripts/bundle.js"],
       //url: "http://blog.linx.dj",
