@@ -8,8 +8,10 @@ pageSize: 10
 
   <!-- Page Content -->
   <div class="posts column">
+    <div class="ui divider"></div>
     <% for document in @getPageCollection('posts').toJSON(): %>
     <%- @partial("postMin.html.eco", false, { document: document, partial: @partial, site: @site, postMin: @postMin }) %>
+    <div class="ui divider"></div>
     <% end %>
   </div>
 

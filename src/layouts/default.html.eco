@@ -14,6 +14,18 @@
     <%- @partial("fork.html.eco") %>
     <%- @partial("header.html.eco") %>
     <%- @content %>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'linx';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
     <%- @getBlock("scripts").add(@site.scripts or []).add(@document.scripts or []).toHTML() %>
   </body>
 </html>

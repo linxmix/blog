@@ -1,3 +1,0 @@
-<a href="<%= @site.url + @document.url + "#disqus_thread" %>">
-  comment on this post
-</a>

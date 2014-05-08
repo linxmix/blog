@@ -3,6 +3,8 @@
 
 @import '../../../node_modules/semantic/src/elements/icon.less';
 @import '../../../node_modules/semantic/src/elements/button.less';
+@import '../../../node_modules/semantic/src/elements/header.less';
+@import '../../../node_modules/semantic/src/elements/divider.less';
 @import '../../../node_modules/semantic/src/collections/grid.less';
 @import '../../../node_modules/semantic/src/collections/menu.less';
 
@@ -26,16 +28,16 @@ body > header {
 
     @media @tiny {
       display: inline-block;
-      font-size: 2.8rem;
+      font-size: 2.6rem;
     }
     @media @small {
-      font-size: 3.3rem;
+      font-size: 3.1rem;
     }
     @media @medium {
-      font-size: 4.3rem;
+      font-size: 4.1rem;
     }
     @media @large {
-      font-size: 6.3rem;
+      font-size: 6.1rem;
     }
   }
 
@@ -45,21 +47,17 @@ body > header {
     color: rgba(0, 0, 0, 0.75);
 
     @media @tiny {
-      font-size: 2.2rem;
+      font-size: 1.5rem;
     }
     @media @small {
-      font-size: 2.7rem;
+      font-size: 2.0rem;
     }
     @media @medium {
-      font-size: 2.8rem;
+      font-size: 2.1rem;
     }
     @media @large {
-      font-size: 3rem;
+      font-size: 2.3rem;
     }
-  }
-
-  a {
-    text-decoration: none;
   }
 }
 
@@ -68,12 +66,26 @@ body > header {
 }
 
 .post {
-  .title, .author, .date {
-    margin: 0.83rem 0;
-    display: inline-block;
-  }
-  .date {
-    float: right;
+  header {
+    text-align: center;
+
+    .title, .author, .date, .commentCount {
+      display: inline-block;
+    }
+    .title, .author {
+      margin: 0.83rem 0.1rem 0.415rem 0.1rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .author {
+      font-size: 1.5rem;
+    }
+    .date, .commentCount {
+      font-size: 1rem;
+      color: rgba(0, 0, 0, 0.70);
+      margin: 0 0.2rem 0 0.2rem;
+    }
   }
 }
 
@@ -81,4 +93,8 @@ body > header {
   ul {
     padding: 0;
   }
+}
+
+a {
+  text-decoration: none;
 }

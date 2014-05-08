@@ -4,6 +4,7 @@
     <%- @postFull(@document.contentRenderedWithoutLayouts, { document: @document, site: @site }) %>
   </div>
   <div class="comments">
-  <%- @partial("comments.html.eco") %>
+    <h2 id="comments">Comments</h2>
+    <%- @partial("comments.html.eco") %>
   </div>
 </article>
