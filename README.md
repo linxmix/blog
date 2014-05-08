@@ -19,7 +19,9 @@ npm install
 
 `npm run develop`
 
-write new post in `src/documents/posts`.
+to scaffold new post, run `./bin/new`.
+
+posts are stored in "src/documents/posts".
 
 ### deploy
 
