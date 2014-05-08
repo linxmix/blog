@@ -1,0 +1,34 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var uuid = require('node-uuid');
+var moment = require('moment');
+var slug = require('slug');
+
+var argv = require('yargs')
+  .usage("usage: $0 -t [title] -d [date] -a [author]")
+  .alias("t", "title")
+  .alias("d", "date")
+  .alias("a", "author")
+  .demand(['t'])
+  .default('d', moment().format("MM/DD/YYYY"))
+  .default('a', "Daniel")
+  .argv;
+
+argv.title = argv.title || argv.name;
+
+var post = ""
+  + "---"
+  + "\nuuid: " + uuid()
+  + "\ntitle: " + argv.title
+  + "\ndate: " + argv.date
+  + "\nauthor: " + argv.author
+  + "\n---";
+
+var path = __dirname + "/../src/documents/posts/" + slug(argv.title) + ".html.md.eco";
+
+if (fs.existsSync(path)) {
+  throw new Error("post with same title already exists!");
+}
+
+fs.writeFileSync(path, post);
