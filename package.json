@@ -30,7 +30,8 @@
     "docpad-plugin-raw": "~2.3.2",
     "docpad-plugin-eco": "~2.0.3",
     "docpad-plugin-paged": "~2.2.4",
-    "docpad-plugin-marked": "~2.2.1"
+    "docpad-plugin-marked": "~2.2.1",
+    "toc": "^0.4.0"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.6.0",

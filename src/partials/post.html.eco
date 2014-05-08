@@ -1,6 +1,9 @@
 <article class="post">
   <%- @partial("postHeader.html.eco", false, { document: @document, site: @site }) %>
   <div class="content">
-    <%- @document.contentRenderedWithoutLayouts %>
+    <% content = @document.contentRenderedWithoutLayouts %>
+    <% content = "<!-- toc --><br />" + content %>
+    <% content = @tocFull(content, { document: @document, site: @site }) %>
+    <%- content %>
   </div>
 </article>

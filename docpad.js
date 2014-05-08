@@ -12,6 +12,11 @@ module.exports = {
       //url: "http://blog.linx.dj",
       url: "http://linxmusic.github.io/blog",
     },
+    tocFull: function (html, ctx) {
+      return require('toc').process(html, {
+        openLI: '<li><a href="' + ctx.site.url + ctx.document.url + '#<%= anchor %>"><%= text %></a>',
+      });
+    },
   },
   detectEncoding: true,
   plugins: {
