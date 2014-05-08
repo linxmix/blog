@@ -16,6 +16,7 @@ module.exports = {
       html = "<!-- toc -->" + html;
       return require('toc').process(html, {
         tocMin: 1,
+        anchorMin: 1,
         openLI: '<li><a href="' + ctx.site.url + ctx.document.url + '#<%= anchor %>"><%= text %></a>',
       });
     },
@@ -23,6 +24,7 @@ module.exports = {
       html = "<!-- toc --><!-- posttoc -->" + html;
       html = require('toc').process(html, {
         tocMin: 1,
+        anchorMin: 1,
         openLI: '<li><a href="' + ctx.site.url + ctx.document.url + '#<%= anchor %>"><%= text %></a>',
       });
       return html.split("<!-- posttoc -->")[0];
