@@ -1,5 +1,6 @@
 {
   "name": "blog",
+  "private": true,
   "version": "0.1.0",
   "description": "blog.linx.dj",
   "repository": {

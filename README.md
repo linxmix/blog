@@ -27,4 +27,4 @@ write new post in `src/documents/posts`.
 
 ## license
 
-CC\-BY\-SA
+CC-BY-SA
