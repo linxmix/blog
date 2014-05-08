@@ -12,10 +12,18 @@ module.exports = {
       //url: "http://blog.linx.dj",
       url: "http://linxmusic.github.io/blog",
     },
-    tocFull: function (html, ctx) {
+    postFull: function (html, ctx) {
+      html = "<!-- toc -->" + html;
       return require('toc').process(html, {
         openLI: '<li><a href="' + ctx.site.url + ctx.document.url + '#<%= anchor %>"><%= text %></a>',
       });
+    },
+    postMin: function (html, ctx) {
+      html = "<!-- toc --><!-- posttoc -->" + html;
+      html = require('toc').process(html, {
+        openLI: '<li><a href="' + ctx.site.url + ctx.document.url + '#<%= anchor %>"><%= text %></a>',
+      });
+      return html.split("<!-- posttoc -->")[0];
     },
   },
   detectEncoding: true,

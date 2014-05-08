@@ -1,0 +1,9 @@
+<article class="post">
+  <%- @partial("postHeader.html.eco", false, { document: @document, site: @site }) %>
+  <div class="content">
+    <%- @postMin(@document.contentRenderedWithoutLayouts, { document: @document, site: @site }) %>
+  </div>
+  <div class="nocomments">
+    <%- @partial("nocomments.html.eco", false, { document: @document }) %>
+  </div>
+</article>

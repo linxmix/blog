@@ -2,15 +2,14 @@
 layout: "default"
 isPaged: true
 pagedCollection: 'posts'
-pageSize: 3
+pageSize: 10
 ---
 <main class="ui one column page grid">
 
   <!-- Page Content -->
   <div class="posts column">
     <% for document in @getPageCollection('posts').toJSON(): %>
-    <%- @partial("post.html.eco", false, { document: document, partial: @partial, site: @site, tocFull: @tocFull }) %>
-    <%- @partial("nocomments.html.eco", false, { document: document }) %>
+    <%- @partial("postMin.html.eco", false, { document: document, partial: @partial, site: @site, postMin: @postMin }) %>
     <% end %>
   </div>
 
