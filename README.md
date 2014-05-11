@@ -19,6 +19,8 @@ npm install
 
 `npm run develop`
 
+### post
+
 to scaffold new post, run `./bin/new`.
 
 posts are stored in "src/documents/posts".
