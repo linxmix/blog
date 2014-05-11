@@ -40,7 +40,7 @@ Today's meeting was an inspirational gathering of thoughts and ideas for the fut
     + can be configured with preferences
       * can optimize #transitions in shuffle mode
   - "turn this playlist into a mix"
-    + takes you to mix builder with 
+    + takes you to mix builder with playlist in optimal order for auto-filled transitions
 
 ## 3. Concept of a Linx Mix
   - in code, very similar to a playlist, but:
@@ -76,6 +76,7 @@ Today's meeting was an inspirational gathering of thoughts and ideas for the fut
     + search
     + tags
     + 'transitions only' checkbox
+    + seed songs/artists
   - tracks currently in the mix listed in order on the side
   - center of builder is for editing selected track
     + 'song edit' view, song in center with next songs spiraling around it
