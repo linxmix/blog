@@ -19,4 +19,7 @@
       Comments
     </a>
   </h4>
+  <p class="description">
+    <%= @document.description %>
+  </p>
 </header>
