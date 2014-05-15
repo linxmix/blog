@@ -17,6 +17,8 @@ module.exports = {
       return require('toc').process(html, {
         tocMin: 1,
         anchorMin: 1,
+        tocMax: 2,
+        anchorMax: 2,
         openLI: '<li><a href="' + ctx.site.url + ctx.document.url + '#<%= anchor %>"><%= text %></a>',
       });
     },
@@ -25,6 +27,8 @@ module.exports = {
       html = require('toc').process(html, {
         tocMin: 1,
         anchorMin: 1,
+        tocMax: 2,
+        anchorMax: 2,
         openLI: '<li><a href="' + ctx.site.url + ctx.document.url + '#<%= anchor %>"><%= text %></a>',
       });
       return html.split("<!-- posttoc -->")[0];
