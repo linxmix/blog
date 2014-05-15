@@ -1,0 +1,55 @@
+---
+uuid: 94148061-66c4-46f6-b584-a56199167158
+title: Uploader Meetup
+date: 5/14/14
+author: Daniel
+---
+
+Today we approached the Uploader from an abstract perspective. We thought deeply about such questions as 'Where do potential DJ users come from?' 'How do we convey to the DJ's the task of uploading a transition?' 'What sort of tutorial will DJ's actually watch?'
+
+#### Attendees:
+- Daniel Leja
+- Ginny McGinnis
+- Ernest Templin
+- Dana Maier-Zucchino
+
+# Major Topics:
+
+## 1. Linx Splash Page(s)
+- use SoundCloud and MixCloud splashes as inspiration
+- 75% directed at appealing to listener
+ + not the focus of this meeting, refer to boardwork picture for more info
+- 25% directed at content producer
+ + content producers are naturally motivated by listener base
+ + 'Find Out More' button takes DJ's to secondary DJ splash page
+  * refer to boardwork picture for more info
+
+## 2. Uploader Page
+- amazon shopping cart 'checkout'-style progress steps across top
+- element of current step is always glowing/pulsing to draw user's to what needs to be done
+- first step is 'Get Transition'
+ + 3 methods: 'make new transition' or 'break mix into transitions' or 'upload single transition'
+ + each method has tooltip with intermediate description, starts open
+  * 'make a new transition in our online DAW'
+  * 'upload a single transition file'
+  * 'upload a preconstructed mix and extract transitions from it'
+ + clicking a method opens upload options (drag and drop, browse computer, paste URL)
+ + refer to pictures of diagram and boardwork for more info
+- each step has 'Need Help?' button which opens into a paging modal with clean animations/text to give the user a more detailed understanding of what is going on
+
+## 3. 'Get Transition' help modal
+ - refer to boardwork pictures for more detail
+ - first page: animation which introduces song => mix => linx
+ - first->second: move a node-link-node triplet from the mix to the top of the page
+ - second page: animation which starts with pointing out the curr song, transition, end song of the linx triplet, then points at the triplet adjacent in traditional wave form
+ - third page: now you just need to tell us where your transitions are coming from!
+  + show 3 buttons as in the 'Get Transition' step, on button click closes modal and takes user to the 'Get Transition' step with that button depressed.
+
+# Resources
+
+## Pictures/Drawings
+
+## Audio
+
+
+
