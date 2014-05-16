@@ -16,6 +16,7 @@
   "main": "node_modules/.bin/docpad-server",
   "scripts": {
     "start": "node .",
+    "new": "./bin/new -t 'new-post'",
     "develop": "docpad run",
     "deploy": "docpad deploy-ghpages --env static"
   },
