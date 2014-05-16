@@ -26,6 +26,13 @@ description: "In the wake of the previous brainstorm's success, a subset of us r
   + `song edit`: active when selecting a song in the mix which is not the last song. prev song goes to top, next song goes to bottom, possible options to replace selected song are lined up in the center and connected to prev and next songs by lines indicating transitions (see included picture for reference).
   + `transition`: start and end song on top and bottom, all transition choices between them
   + NOTE: `transition` has low priority since it won't be useful until we have transitions to choose from!
+ - 'main' section is never blank
+  + 0 tracks in mix: defaults to pandora-style "choose a song to get started" splash
+  + 1+ tracks in mix: defaults to upNext view
+ - it's OK that we only show ~5 possible song choices at a time
+  + digestable amount
+  + similar number of visible search results as soundcloud/youtube
+  + power users can increase or decrease # search results in preferences
 
 ### Future:
  - how to preview upNext [songs/transitons] in the mixbuilder

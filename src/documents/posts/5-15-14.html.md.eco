@@ -1,0 +1,85 @@
+---
+uuid: a054d9eb-d3f6-4668-8e38-eff5a6ed695a
+title: MixBuilder Continued: Timeline and DAW
+date: 5/15/14
+author: Daniel
+category: Meetups
+resources: [recording, boardwork]
+description: "Hammering out the details of the Timeline View, together we found solutions to quite a few questions heretofore unanswered. We discussed the interplay between and relative roles of Graph View, Timeline View, DAW View, Advanced Search, and Search Results."
+---
+
+#### Attendees:
+- Daniel Leja
+- Ginny McGinnis
+- Ernest Templin
+- Dana Maier-Zucchino
+- Isabella Granados
+- Chii Maene
+- Michael Williams
+
+# Major Topics:
+
+## 1. Timeline View
+- zooms horizontally but not vertically
+ + fixed-y: min height, max height, and client height %
+- songs: album artwork and title on top (see boardwork)
+ + on click: takes you to graph, either 'song edit' or 'upNext' view
+- transitions: DJ profile picture and DJ name on bottom
+ + on click: takes you to graph, 'transiton edit' view
+- great for previewing a mix
+- button on SoundBar to take you to timeline view of playing mix
+
+## 2. Advanced Search
+- universal search for linx
+ + when in any 1 of the 3 graph edit views, search results displayed in graph
+ + anywhere else, takes you to search results playlist
+- needs to be able to page through results
+- positioned on right, expandable to show parameters and seeds (see boardwork)
+- seeds:
+ + depends on echo nest
+ + song
+ + artist
+ + genre
+- parameters:
+ + rage-chill
+ + adventurousness
+ + popularity
+ + search
+ + tags
+ + 'transitions only' checkbox
+
+### Future:
+- what if we are searching from the timeline view? should that take us to upNext?
+- should there be a direct and natural way to get to search from the timeline view?
+
+## 3. Simple DAW: Transition Editor
+- start with 2 tracks for simplicity
+ + 0, 1 or 2 tracks can be prefilled
+ + unfilled start/end song requires user to choose a song
+- `+` button for power users to add more tracks
+- need to be able to 'beatgrid' tracks
+- detect and display or set default:
+ + loudness
+ + tempo
+ + key
+- automation:
+ + volume / crossfader
+ + HP/LP/BP filter
+ + tempo
+ + pitch
+
+### Future:
+- should we store transitions as files or as parameters?
+ + means users can edit transitions other people made in our DAW
+ + maybe helps with copyright?
+ + should mixes that play back those transitions 'recreate' from parameters on the fly?
+- delay effect
+- drag-and-drop samples/tracks from user library
+ + if we record the transition to save it as a file, samples could be pretty easy
+
+# Resources
+
+## Pictures/Drawings
+
+## Audio
+

@@ -39,7 +39,7 @@ description: "Today's meeting was an inspirational gathering of thoughts and ide
   - "autoDJ" will auto-fill transitions on playback
     + can be toggled on and off
     + can be configured with preferences
-      * can optimize #transitions in shuffle mode
+      * can optimize transitions in shuffle mode
   - "turn this playlist into a mix"
     + takes you to mix builder with playlist in optimal order for auto-filled transitions
 
@@ -60,6 +60,7 @@ description: "Today's meeting was an inspirational gathering of thoughts and ide
   - "upNext" view:
     + similar to mixcloud/grooveshark
     + albums / titles of each queued [song/transition]
+    + mixes are a single collapsible/expandable tile
     + infinitely scrolling?
 
 ## 5. Mix Builder
@@ -67,17 +68,14 @@ description: "Today's meeting was an inspirational gathering of thoughts and ide
   - if has no songs in it: "pick a song to start building your mix"
     + a la Pandora welcome screen
   - can play a mix while building it
-  - button to auto-fill transitions
-  - button to export mix as audio file
-  - button to maximize # transitions
-  - shows possible next songs based on parameters
-    + rage-chill
-    + adventurousness
-    + popularity
-    + search
-    + tags
-    + 'transitions only' checkbox
-    + seed songs/artists
+  - small icon-button menu next to mix name
+    + button to toggle between 'map view' and 'timeline view'
+    + button to export mix as audio file
+    + button to optimize transitions
+      * auto-fill transitions where possible
+      * reorder mix to maximize # transitions
+      * reorder mix by key
+      * advanced options for power users
   - tracks currently in the mix listed in order on the side
   - center of builder is for editing selected track
     + 'song edit' view, song in center with next songs spiraling around it
