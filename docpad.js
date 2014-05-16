@@ -9,8 +9,7 @@ module.exports = {
       description: "open collaboration of linx.dj",
       styles: ["styles/index.css"],
       scripts: ["scripts/bundle.js"],
-      //url: "http://blog.linx.dj",
-      url: "http://linxmusic.github.io/blog",
+      url: "http://blog.linx.dj",
     },
     postFull: function (html, ctx) {
       html = "<!-- toc -->" + html;
