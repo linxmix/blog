@@ -1,6 +1,6 @@
 # blog
 
-website for [blog](http://linxmusic.github.io/blog) built using [DocPad](http://docpad.org).
+website for [blog](http://linx.dj) built using [DocPad](http://docpad.org).
 
 ## how to
 
