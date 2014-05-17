@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      Linx MixBuilder Meetup
+    </title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="description" content="open collaboration of linx.dj" />
+    <meta name="generator" content="DocPad v6.64.3" />
+    <link  rel="stylesheet" href="../styles/index.css" />
+  </head>
+  <body>
+    <a href="https://github.com/linxmix/blog"><img style="position: absolute; top: 0; right: 0; border: 0;" src="../images/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+    <header>
+  <h1>
+    <a href="http://blog.linx.dj">
+      blog.linx.dj
+    </a>
+  </h1>
+  <p>
+    open collaboration of
+    <a href="http://linx.dj">
+      linx.dj
+    </a>
+  </p>
+</header>
+    <main class="ui one column page grid">
+  <div class="column">
+    <article class="post">
+  <header>
+  <h1 class="title">
+    <a href="http://blog.linx.dj/posts/5-6-14.html">
+      Linx MixBuilder Meetup
+    </a>
+  </h1>
+  by
+  <h2 class="author">
+    Daniel
+  </h2>
+  <br />
+  <h3 class="date">
+    <i class="time icon"></i>
+    Tuesday, May 06, 2014
+  </h3>
+  <h4 class="commentCount">
+    <i class="comment outline icon"></i>
+    <a href="http://blog.linx.dj/posts/5-6-14.html#disqus_thread" data-disqus-identifier="ff0708d4-d748-43de-bd38-aa33f649b598">
+      Comments
+    </a>
+  </h4>
+  <p class="description">
+    In the wake of the previous brainstorm's success, a subset of us reconvened to discuss the design of the Mix Builder in more detail.
+  </p>
+</header>
+  <div class="content">
+    <div class="toc"><ul><li><a href="http://blog.linx.dj/posts/5-6-14.html#major-topics">Major Topics:</a><ul><li><a href="http://blog.linx.dj/posts/5-6-14.html#1.mixbuilder-map-view">1. MixBuilder map view</a></li><li><a href="http://blog.linx.dj/posts/5-6-14.html#2.mixbuilder-timeline-view">2. MixBuilder timeline view</a></li><li><a href="http://blog.linx.dj/posts/5-6-14.html#3.lets-get-real-we-have-no-transitions">3. Let&#39;s Get Real: We Have No Transitions</a></li><li><a href="http://blog.linx.dj/posts/5-6-14.html#4.new-paradigms-music-players-as-mix-builders-and-djing-as-a-service">4. New Paradigms: Music players as &#39;mix builders&#39; and &#39;DJing as a service&#39;</a></li><li><a href="http://blog.linx.dj/posts/5-6-14.html#5.to-be-continued">5. To Be Continued...</a></li></ul></li><li><a href="http://blog.linx.dj/posts/5-6-14.html#resources">Resources</a><ul><li><a href="http://blog.linx.dj/posts/5-6-14.html#picturesdrawings">Pictures/Drawings</a></li></ul></li></ul></div><h4 id="attendees-">Attendees:</h4>
+<ul>
+<li>Daniel Leja</li>
+<li>Chii Maene</li>
+<li>Isabella Granados</li>
+<li>Ginny McGinnis</li>
+</ul>
+<h1 id="major-topics-"><a href="#major-topics" name="major-topics">Major Topics:</a></h1>
+<h2 id="1-mixbuilder-map-view"><a href="#1.mixbuilder-map-view" name="1.mixbuilder-map-view">1. MixBuilder <code>map</code> view</a></h2>
+<ul>
+<li>purpose: to select which songs/transitions are part of your mix</li>
+<li>map has 2 core sections:<ul>
+<li>&#39;overview&#39;/&#39;list&#39;: section on left to display all tracks in mix at-a-glance</li>
+<li>&#39;main&#39;/&#39;graph&#39;: main/center section to display selected track and other possible options</li>
+</ul>
+</li>
+<li>different &#39;main&#39; views depending on which [song/transition] is selected:<ul>
+<li><code>flower</code>: active when the last song of the mix is selected, this is the classic Linx view</li>
+<li><code>song edit</code>: active when selecting a song in the mix which is not the last song. prev song goes to top, next song goes to bottom, possible options to replace selected song are lined up in the center and connected to prev and next songs by lines indicating transitions (see included picture for reference).</li>
+<li><code>transition</code>: start and end song on top and bottom, all transition choices between them</li>
+<li>NOTE: <code>transition</code> has low priority since it won&#39;t be useful until we have transitions to choose from!</li>
+</ul>
+</li>
+<li>&#39;main&#39; section is never blank<ul>
+<li>0 tracks in mix: defaults to pandora-style &quot;choose a song to get started&quot; splash</li>
+<li>1+ tracks in mix: defaults to upNext view</li>
+</ul>
+</li>
+<li>it&#39;s OK that we only show ~5 possible song choices at a time<ul>
+<li>digestable amount</li>
+<li>similar number of visible search results as soundcloud/youtube</li>
+<li>power users can increase or decrease # search results in preferences</li>
+</ul>
+</li>
+</ul>
+<h3 id="future-">Future:</h3>
+<ul>
+<li>how to preview upNext [songs/transitons] in the mixbuilder</li>
+</ul>
+<h2 id="2-mixbuilder-timeline-view"><a href="#2.mixbuilder-timeline-view" name="2.mixbuilder-timeline-view">2. MixBuilder <code>timeline</code> view</a></h2>
+<ul>
+<li>similar to SoundBar&#39;s <code>wave</code> view</li>
+<li>can be zoomed in/out</li>
+<li>serves as a visual reference for how the mix will play out<ul>
+<li>left-to-right wave format appeals to users of soundcloud/DAW/traktor/etc</li>
+</ul>
+</li>
+<li>possibly offer editing capabilities, ie crossfader automation / wave positioning</li>
+<li>waveforms will each have their own colors to distinguish breakpoints between songs/transitions</li>
+</ul>
+<h3 id="future-">Future:</h3>
+<ul>
+<li>details of <code>timeline</code> view<ul>
+<li>how does it look</li>
+<li>what functionality does it have</li>
+<li>how does this play into the idea of a simple daw</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-let-s-get-real-we-have-no-transitions"><a href="#3.lets-get-real-we-have-no-transitions" name="3.lets-get-real-we-have-no-transitions">3. Let&#39;s Get Real: We Have No Transitions</a></h2>
+<ul>
+<li>spectrum bounded by &#39;all mixes have no transitions&#39; and &#39;all mixes have all transitions&#39;<ul>
+<li>&#39;build a mix tape&#39; =&gt; &#39;build a mix&#39;</li>
+</ul>
+</li>
+<li>we start at the 0 end, but Linx should still be useful as a MixBuilder in the respective ways of listener and DJ users.<ul>
+<li>aka MVP</li>
+<li>DJ&#39;s can upload their own transitions to build mixes</li>
+<li>Listeners can build/share/export &#39;mix tapes&#39;</li>
+</ul>
+</li>
+<li>it will take a TON of transitions by a TON of DJ&#39;s to get to a reasonable number on the scale</li>
+</ul>
+<h3 id="future-">Future:</h3>
+<ul>
+<li>need to start thinking about how to appeal to / advertise to DJ&#39;s<ul>
+<li>transition requests?</li>
+<li>start locally in the bay area with friend DJ&#39;s and friends of friends?</li>
+</ul>
+</li>
+</ul>
+<h2 id="4-new-paradigms-music-players-as-mix-builders-and-djing-as-a-service-"><a href="#4.new-paradigms-music-players-as-mix-builders-and-djing-as-a-service" name="4.new-paradigms-music-players-as-mix-builders-and-djing-as-a-service">4. New Paradigms: Music players as &#39;mix builders&#39; and &#39;DJing as a service&#39;</a></h2>
+<ul>
+<li>users without technical skill can now build mixes</li>
+<li>&#39;user-generated&#39; mixes (Linx) are to music listeners what content-generators (Drupal, Wordpress) are to web bloggers<ul>
+<li>content generators bring benefit of a website to bloggers without need for programming skill, while bloggers who are also programmers can still roll their own websites for more control</li>
+<li>&#39;user-generated&#39; mixes bring the benefits of seamless mixes to listeners without need for DJing skill, while listeners who are also DJ&#39;s can still make their own mixes for more control</li>
+</ul>
+</li>
+<li>Licensing and public disclosure of code and design ideas<ul>
+<li>don&#39;t want to hand competition the tools to drown us</li>
+<li>but also want to be open source</li>
+<li>Linx lives and dies on its unique appeal to users. big names can crush linx if they move towards &#39;mix building&#39; style of linx </li>
+</ul>
+</li>
+</ul>
+<h3 id="pitch-">Pitch:</h3>
+<p>Imagine you are a user cruising mixes for listen to, and you find a mix with a description to the effect of &#39;This mix was built by [username] at linx.dj. Build yours now!&#39;. The first thing I would think is &#39;oh <em>**</em>, i HAVE to try that out&#39;. It&#39;s basically putting ads exactly where interested users are looking: people who are interested in mixes will find mixes that are built by linx... match made in heaven.</p>
+<h2 id="5-to-be-continued-"><a href="#5.to-be-continued" name="5.to-be-continued">5. To Be Continued...</a></h2>
+<ul>
+<li>&#39;list&#39; view for mix<ul>
+<li>is this a subset of other views? ie timeline has a list below it, sort of like a track list?</li>
+<li>is this necessary? it&#39;s easy to add in the code since playlists already exist</li>
+</ul>
+</li>
+<li>&#39;wave&#39; view (as subset of &#39;list&#39; view)?<ul>
+<li>for playlists (and mixes?)</li>
+<li>good for at-a-glance previewing</li>
+<li>also good for playback previewing</li>
+</ul>
+</li>
+</ul>
+<h1 id="resources"><a href="#resources" name="resources">Resources</a></h1>
+<h2 id="pictures-drawings"><a href="#picturesdrawings" name="picturesdrawings">Pictures/Drawings</a></h2>
+<p><a href="https://drive.google.com/file/d/0B_V6LSmyIHABOHpJVy0xdU5nRkU" title="graph views for selected track: transition, last song, edit song">
+  <img src="https://drive.google.com/uc?export=view&id=0B_V6LSmyIHABOHpJVy0xdU5nRkU" alt="graph views for selected track: transition, last song, edit song" height="600"  title="graph views for selected track: transition, last song, edit song" />
+</a>
+<a href="https://drive.google.com/file/d/0B_V6LSmyIHABNHNYcUVKdUF6SWM" title="graph song edit view. also shows queued songs in ovals">
+  <img src="https://drive.google.com/uc?export=view&id=0B_V6LSmyIHABNHNYcUVKdUF6SWM" alt="graph song edit view. also shows queued songs in ovals" height="600"  title="graph song edit view. also shows queued songs in ovals" />
+</a></p>
+
+  </div>
+  <div class="comments">
+    <h2 id="comments">Comments</h2>
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: * * */
+  var disqus_shortname = 'linx';
+  var disqus_identifier = 'ff0708d4-d748-43de-bd38-aa33f649b598';
+  var disqus_title = 'Linx MixBuilder Meetup';
+  var disqus_url = 'http://blog.linx.dj/posts/5-6-14.html';
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</article>
+  </div>
+</main>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'linx';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+    <script defer="defer"  src="../scripts/bundle.js"></script>
+  </body>
+</html>

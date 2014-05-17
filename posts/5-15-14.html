@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      MixBuilder Continued: Timeline and DAW
+    </title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="description" content="open collaboration of linx.dj" />
+    <meta name="generator" content="DocPad v6.64.3" />
+    <link  rel="stylesheet" href="../styles/index.css" />
+  </head>
+  <body>
+    <a href="https://github.com/linxmix/blog"><img style="position: absolute; top: 0; right: 0; border: 0;" src="../images/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+    <header>
+  <h1>
+    <a href="http://blog.linx.dj">
+      blog.linx.dj
+    </a>
+  </h1>
+  <p>
+    open collaboration of
+    <a href="http://linx.dj">
+      linx.dj
+    </a>
+  </p>
+</header>
+    <main class="ui one column page grid">
+  <div class="column">
+    <article class="post">
+  <header>
+  <h1 class="title">
+    <a href="http://blog.linx.dj/posts/5-15-14.html">
+      MixBuilder Continued: Timeline and DAW
+    </a>
+  </h1>
+  by
+  <h2 class="author">
+    Daniel
+  </h2>
+  <br />
+  <h3 class="date">
+    <i class="time icon"></i>
+    Thursday, May 15, 2014
+  </h3>
+  <h4 class="commentCount">
+    <i class="comment outline icon"></i>
+    <a href="http://blog.linx.dj/posts/5-15-14.html#disqus_thread" data-disqus-identifier="a054d9eb-d3f6-4668-8e38-eff5a6ed695a">
+      Comments
+    </a>
+  </h4>
+  <p class="description">
+    Hammering out the details of the Timeline View, together we found solutions to quite a few questions heretofore unanswered. We discussed the interplay between and relative roles of Graph View, Timeline View, DAW View, Advanced Search, and Search Results.
+  </p>
+</header>
+  <div class="content">
+    <div class="toc"><ul><li><a href="http://blog.linx.dj/posts/5-15-14.html#major-topics">Major Topics:</a><ul><li><a href="http://blog.linx.dj/posts/5-15-14.html#1.timeline-view">1. Timeline View</a></li><li><a href="http://blog.linx.dj/posts/5-15-14.html#2.advanced-search">2. Advanced Search</a></li><li><a href="http://blog.linx.dj/posts/5-15-14.html#3.simple-daw-transition-editor">3. Simple DAW: Transition Editor</a></li></ul></li><li><a href="http://blog.linx.dj/posts/5-15-14.html#resources">Resources</a><ul><li><a href="http://blog.linx.dj/posts/5-15-14.html#picturesdrawings">Pictures/Drawings</a></li><li><a href="http://blog.linx.dj/posts/5-15-14.html#audio">Audio</a></li></ul></li></ul></div><h4 id="attendees-">Attendees:</h4>
+<ul>
+<li>Daniel Leja</li>
+<li>Ginny McGinnis</li>
+<li>Ernest Templin</li>
+<li>Dana Maier-Zucchino</li>
+<li>Isabella Granados</li>
+<li>Chii Maene</li>
+<li>Michael Williams</li>
+</ul>
+<h1 id="major-topics-"><a href="#major-topics" name="major-topics">Major Topics:</a></h1>
+<h2 id="1-timeline-view"><a href="#1.timeline-view" name="1.timeline-view">1. Timeline View</a></h2>
+<ul>
+<li>zooms horizontally but not vertically<ul>
+<li>fixed-y: min height, max height, and client height %</li>
+</ul>
+</li>
+<li>songs: album artwork and title on top (see boardwork)<ul>
+<li>on click: takes you to graph, either &#39;song edit&#39; or &#39;upNext&#39; view</li>
+</ul>
+</li>
+<li>transitions: DJ profile picture and DJ name on bottom<ul>
+<li>on click: takes you to graph, &#39;transiton edit&#39; view</li>
+</ul>
+</li>
+<li>great for previewing a mix</li>
+<li>button on SoundBar to take you to timeline view of playing mix</li>
+</ul>
+<h2 id="2-advanced-search"><a href="#2.advanced-search" name="2.advanced-search">2. Advanced Search</a></h2>
+<ul>
+<li>universal search for linx<ul>
+<li>when in any 1 of the 3 graph edit views, search results displayed in graph</li>
+<li>anywhere else, takes you to search results playlist</li>
+</ul>
+</li>
+<li>needs to be able to page through results</li>
+<li>positioned on right, expandable to show parameters and seeds (see boardwork)</li>
+<li>seeds:<ul>
+<li>depends on echo nest</li>
+<li>song</li>
+<li>artist</li>
+<li>genre</li>
+</ul>
+</li>
+<li>parameters:<ul>
+<li>rage-chill</li>
+<li>adventurousness</li>
+<li>popularity</li>
+<li>search</li>
+<li>tags</li>
+<li>&#39;transitions only&#39; checkbox</li>
+</ul>
+</li>
+</ul>
+<h3 id="future-">Future:</h3>
+<ul>
+<li>what if we are searching from the timeline view? should that take us to upNext?</li>
+<li>should there be a direct and natural way to get to search from the timeline view?</li>
+</ul>
+<h2 id="3-simple-daw-transition-editor"><a href="#3.simple-daw-transition-editor" name="3.simple-daw-transition-editor">3. Simple DAW: Transition Editor</a></h2>
+<ul>
+<li>start with 2 tracks for simplicity<ul>
+<li>0, 1 or 2 tracks can be prefilled</li>
+<li>unfilled start/end song requires user to choose a song</li>
+</ul>
+</li>
+<li><code>+</code> button for power users to add more tracks</li>
+<li>need to be able to &#39;beatgrid&#39; tracks</li>
+<li>detect and display or set default:<ul>
+<li>loudness</li>
+<li>tempo</li>
+<li>key</li>
+</ul>
+</li>
+<li>automation:<ul>
+<li>volume / crossfader</li>
+<li>HP/LP/BP filter</li>
+<li>tempo</li>
+<li>pitch</li>
+</ul>
+</li>
+</ul>
+<h3 id="future-">Future:</h3>
+<ul>
+<li>should we store transitions as files or as parameters?<ul>
+<li>means users can edit transitions other people made in our DAW</li>
+<li>maybe helps with copyright?</li>
+<li>should mixes that play back those transitions &#39;recreate&#39; from parameters on the fly?</li>
+</ul>
+</li>
+<li>delay effect</li>
+<li>drag-and-drop samples/tracks from user library<ul>
+<li>if we record the transition to save it as a file, samples could be pretty easy</li>
+</ul>
+</li>
+</ul>
+<h1 id="resources"><a href="#resources" name="resources">Resources</a></h1>
+<h2 id="pictures-drawings"><a href="#picturesdrawings" name="picturesdrawings">Pictures/Drawings</a></h2>
+<h2 id="audio"><a href="#audio" name="audio">Audio</a></h2>
+
+  </div>
+  <div class="comments">
+    <h2 id="comments">Comments</h2>
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: * * */
+  var disqus_shortname = 'linx';
+  var disqus_identifier = 'a054d9eb-d3f6-4668-8e38-eff5a6ed695a';
+  var disqus_title = 'MixBuilder Continued: Timeline and DAW';
+  var disqus_url = 'http://blog.linx.dj/posts/5-15-14.html';
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</article>
+  </div>
+</main>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'linx';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+    <script defer="defer"  src="../scripts/bundle.js"></script>
+  </body>
+</html>
